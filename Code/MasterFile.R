@@ -7,9 +7,8 @@ library(scales)
 
 set.seed(123)
 
-# Create a custom base pool with skew, clusters, gaps etc.
+
 create_custom_pool <- function(n = 2000, min_val, max_val) {
-  # Combine a few patterns: clusters + gaps + randomness
   cluster1 <- runif(n * 0.3, min_val, (min_val + max_val) / 2)
   cluster2 <- runif(n * 0.5, (min_val + max_val) / 2, max_val)
   outliers <- c(min_val, max_val)  # simulate edge values
@@ -18,8 +17,7 @@ create_custom_pool <- function(n = 2000, min_val, max_val) {
   return(pool)
 }
 
-# Generate final dataset by sampling without replacement
-n_samples <- 500
+n_samples <- 500 #samole dataset with replacement
 df <- data.frame(
   Nitrate = sample(create_custom_pool(2000, 2.5, 4.5), n_samples),
   P = sample(create_custom_pool(2000, 0.20, 0.45), n_samples),
@@ -44,7 +42,7 @@ input_analyzer <- function(df) {
     cat("\nAnalyzing:", nutrient, "\n")
     data <- df[[nutrient]]
     
-    # Fit distributions
+  
     fits <- list(
       normal = fitdist(data, "norm"),
       gamma = tryCatch(fitdist(data, "gamma"), error = function(e) NULL),
@@ -68,7 +66,7 @@ input_analyzer <- function(df) {
       ggtitle(paste("Best Fit for", nutrient, ":", best_fit)) +
       theme_minimal()
     
-    # Add curve with legends
+   
     if (!is.null(fits$normal)) {
       mu <- fits$normal$estimate["mean"]
       sigma <- fits$normal$estimate["sd"]
@@ -91,13 +89,13 @@ input_analyzer <- function(df) {
                              aes(color = "Weibull"), linewidth = 1)
     }
     
-    # Color legend manually
+    
     p <- p + scale_color_manual(
       name = "Distributions",
       values = c("Normal" = "blue", "Gamma" = "red", "Weibull" = "green")
     )
     
-    # Add quantile lines and labels
+   
     clean_fit_name <- gsub("^3-mle-", "", best_fit)
     if (!is.null(fits[[clean_fit_name]])) {
       best_params <- fits[[clean_fit_name]]$estimate
