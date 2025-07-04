@@ -1,3 +1,7 @@
+        Currently in the process of reviewing the codes. Once the rewiew is done, a report and revised code script will me posted.
+                                                                                                            Cheers, Sophia!
+
+
 ![Image](https://github.com/user-attachments/assets/f3bac588-e3f6-418d-a1ba-604f16cf1055)
 
 # Plant Tissue Sufficiency Range Determination<br />
@@ -62,3 +66,4 @@ Veazie, P., Chen, H., Hicks, K., Holley, J., Eylands, N., Mattson, N., Boldt, J.
 Based on the distribution fitting and SRA workflow presented in Veazie et al. (2024).
 
 # Developed using current and historical corn tissue samples for applied agronomic research and lab reporting improvement.
+
