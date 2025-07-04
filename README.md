@@ -32,7 +32,7 @@ This project:
 
 - BIC Summary Table: Summarizes BIC values across models for each nutrient.
 
-### Quick Links to Folders
+## Quick Links to Folders<br />
 - [Code](./Code/) Model training, evaluation, and utility scripts <br />
 - [Reports](./Reports/) Project reports and presentation materials <br />
 - [Docs](./Docs/) Supporting literature and PDFs <br />
@@ -54,7 +54,7 @@ This project:
 
         - scales
 
-## References <br/ >
+## References<br/ >
 Veazie, P., Chen, H., Hicks, K., Holley, J., Eylands, N., Mattson, N., Boldt, J., Brewer, D., Lopez, R., & Whipker, B. E. (2024). A Data-driven Approach for Generating Leaf Tissue Nutrient Interpretation Ranges for Greenhouse Lettuce. HortScience, 59(3), 267–277. https://doi.org/10.21273/HORTSCI17582-23
 
 ## Acknowledgments
