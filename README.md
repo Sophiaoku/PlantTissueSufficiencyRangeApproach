@@ -53,10 +53,10 @@ Plant tissue testing is critical for nutrient management and for diagnosing defi
 
   - scales
 
-## References<br/ >
+## References<br />
 Veazie, P., Chen, H., Hicks, K., Holley, J., Eylands, N., Mattson, N., Boldt, J., Brewer, D., Lopez, R., & Whipker, B. E. (2024). A Data-driven Approach for Generating Leaf Tissue Nutrient Interpretation Ranges for Greenhouse Lettuce. HortScience, 59(3), 267–277. https://doi.org/10.21273/HORTSCI17582-23
 
-## Acknowledgments
+## Acknowledgments<br />
 Based on the distribution fitting and SRA workflow presented in Veazie et al. (2024).
 
 # Developed using current and historical corn tissue samples for applied agronomic research and lab reporting improvement.
