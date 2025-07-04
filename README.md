@@ -1,4 +1,4 @@
-![Example Image](image1.jpg)
+![Image](https://github.com/user-attachments/assets/f3bac588-e3f6-418d-a1ba-604f16cf1055)
 
 # Plant Tissue Sufficiency Range Determination<br />
 This repository provides an R-based pipeline to determine plant tissue sufficiency ranges using a survey method with distribution fitting and percentile categorization. It builds on multiple literature sources, with major reference to the workflow of Veazie et al. (2024), and has been adapted for corn tissue nutrient data. The aim of this project is to create an accessible input analyzer to help determine low, sufficient, and toxic ranges in plant tissue analysis. This project is intended to provide agronomists and laboratory technicians with a practical starting point for interpreting plant tissue nutrient reports.
