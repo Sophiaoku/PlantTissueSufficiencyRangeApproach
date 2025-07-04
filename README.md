@@ -41,17 +41,17 @@ Plant tissue testing is critical for nutrient management and for diagnosing defi
 
 - ### Packages:
 
-        - ggplot2
+  - ggplot2
 
-        - fitdistrplus
+  - fitdistrplus
 
-        - gridExtra
+  - gridExtra
 
-        - reshape2
+  - reshape2
 
-        - goftest
+  - goftest
 
-        - scales
+  - scales
 
 ## References<br/ >
 Veazie, P., Chen, H., Hicks, K., Holley, J., Eylands, N., Mattson, N., Boldt, J., Brewer, D., Lopez, R., & Whipker, B. E. (2024). A Data-driven Approach for Generating Leaf Tissue Nutrient Interpretation Ranges for Greenhouse Lettuce. HortScience, 59(3), 267–277. https://doi.org/10.21273/HORTSCI17582-23
